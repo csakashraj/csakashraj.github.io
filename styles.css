@@ -7,6 +7,8 @@ body, h1, h2, p, ul, li {
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 .container {
@@ -16,13 +18,14 @@ body {
 }
 
 header {
-    background: #333;
+    background-color: #2ecc71;
     color: #fff;
     padding: 10px 0;
 }
 
 header h1 {
     float: left;
+    font-size: 24px;
 }
 
 nav {
@@ -49,17 +52,32 @@ main {
 
 .section {
     padding: 40px 0;
+    text-align: center;
 }
 
-footer {
-    background: #333;
+.about {
+    background-color: #3498db;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+}
+
+.photography {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.coding {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.contact {
+    background-color: #f39c12;
+    color: #333;
 }
 
 .social-links {
     list-style: none;
+    padding: 0;
 }
 
 .social-links li {
